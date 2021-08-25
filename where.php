@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Where
  * Description: Display your WordPress site's environment type in the admin bar.
- * Version:     1.0.0
+ * Version:     1.0.1
  * Author:      Brad Parbs
  * Author URI:  https://bradparbs.com/
  * License:     GPLv2
@@ -89,7 +89,7 @@ function add_styles() {
 			background-color: %1$s;
 		}
 
-		#wp-admin-bar-top-secondary {
+		#wpadminbar #wp-admin-bar-top-secondary {
 			position: fixed;
 			right: 0
 		}
