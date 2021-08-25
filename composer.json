@@ -1,0 +1,12 @@
+{
+	"name": "bradp/where",
+	"type": "wordpress-plugin",
+	"description": "A WordPress plugin to display your site's environment type in the admin bar",
+	"license": "GPL-2.0-or-later",
+	"authors": [
+	  {
+		"name": "Brad Parbs",
+		"email": "brad@bradparbs.com"
+	  }
+	]
+}
