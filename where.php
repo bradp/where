@@ -94,11 +94,9 @@ function add_styles() {
 			right: 0
 		}
 
-		@media screen and (max-width: 782px) {
-			#wp-admin-bar-where .ab-item:before {
-				top: 3px;
-				content: "%2$s";
-			}
+		#wp-admin-bar-where .ab-item::before {
+			top: 3px;
+			content: "%2$s";
 		}',
 		get_env_style_value( 'color' ),
 		get_env_style_value( 'icon' )
